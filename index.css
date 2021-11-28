@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    overflow-x: hidden;
+}
+
+#back {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 30px 40px;
+    background: #efefef
+}
+
+#back nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #links a {
+    display: inline-block;
+    margin-left: 170px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+nav #links a:first-child {
+    margin-left: 0;
+}
+
+#icons i {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#icons i:first-child {
+    margin-left: 0px;
+}
+
+#main {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    border: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#image {
+    margin-top: 10px;
+    width: 100%;
+    height: 88%;
+    border: none;
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1504207742709-f7e8858f8a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80');
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background: #efefef
+}
+
+#footer {
+    position: absolute;
+    bottom: 30px;
+    width: 94%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer i {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#footer i:last-child {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+#right_footer {
+    height: 100%;
+}
+
+#left_footer {
+    height: 100%;
+}
