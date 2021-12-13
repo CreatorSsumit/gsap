@@ -110,6 +110,11 @@ nav #links a:first-child {
     height: 100%;
 }
 
+.head {
+    display: inline-block;
+}
+
+
 #image h1 {
     z-index: 999999;
     position: absolute;
