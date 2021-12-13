@@ -6,8 +6,10 @@ t1.from('.st', {
     duration: 1,
     opacity: 0,
     ease: 'Expo.easeInOut()'
-}).from('#main h1', {
+}).from('.head', {
     y: 30,
+    stagger: .5,
+    delay: 2,
     opacity: 0,
     duration: 1,
     ease: 'Expo.easeInOut()'
@@ -15,4 +17,4 @@ t1.from('.st', {
     width: '0%',
     duration: 2,
     ease: 'Expo.easeInOut()',
-})
+}, '-=3')
