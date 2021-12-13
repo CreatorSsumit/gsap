@@ -128,6 +128,20 @@ nav #links a:first-child {
     left: -8%;
 }
 
+#image::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba( 255, 255, 255, 0.05);
+    backdrop-filter: blur( 14px);
+    -webkit-backdrop-filter: blur( 14px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
 @media only screen and (max-width:800px) {
     #image h1 {
         /* z-index: 999999;
